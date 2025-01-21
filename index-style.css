@@ -1,0 +1,76 @@
+/* Estilos generales para la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7edea; /* Gris muy claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #030d4f; /* Azul oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc52c; /* Amarillo brillante */
+}
+
+.navbar-brand:hover {
+    color: #fb0c06; /* Rojo intenso */
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #ceecef; /* Azul claro */
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc52c; /* Amarillo brillante */
+}
+
+/* Estilos del encabezado */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #030d4f; /* Azul oscuro */
+}
+
+/* Estilo de los botones */
+.btn {
+    border-radius: 8px;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Botón principal (Iniciar sesión) */
+.custom-btn {
+    background: linear-gradient(135deg, #ffc52c, #fb0c06); /* Amarillo brillante a rojo intenso */
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #fb0c06, #ffc52c); /* Rojo intenso a amarillo brillante */
+}
+
+/* Botón secundario (Registrarse) */
+.custom-btn-secondary {
+    background: #e7edea; /* Gris suave */
+    border: 2px solid #ceecef; /* Azul claro */
+    color: #030d4f; /* Azul oscuro */
+    transition: all 0.3s ease;
+}
+
+.custom-btn-secondary:hover {
+    background: #ffffff; /* Blanco */
+    border-color: #ffc52c; /* Amarillo brillante */
+    color: #ffc52c; /* Amarillo brillante */
+}
