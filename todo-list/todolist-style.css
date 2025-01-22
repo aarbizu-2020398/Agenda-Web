@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7edea; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+    color: #030d4f; /* Texto primario */
+}
+
+/* Encabezado */
+header {
+    background-color: #030d4f; /* Azul oscuro */
+    color: #ceecef; /* Azul claro */
+}
+
+/* Contenedor de tareas */
+#todo-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #030d4f;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Tareas completadas */
+.list-group-item.completed {
+    background-color: #d4edda; /* Verde claro */
+    text-decoration: line-through;
+    color: #155724;
+}
+
+/* Tareas favoritas */
+.list-group-item.favorite {
+    background-color: #fff3cd; /* Amarillo claro */
+    color: #856404;
+}
+
+/* Tareas vencidas */
+.list-group-item.expired {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24;
+}
+
+/* Botones */
+.list-group-item button {
+    background-color: #ffc52c;
+    color: #030d4f;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item button:hover {
+    background-color: #fb0c06;
+    color: #ffffff;
+}
