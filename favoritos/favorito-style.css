@@ -1,0 +1,58 @@
+/* Estilos para la página de favoritos */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7edea; /* Gris claro */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #030d4f; /* Azul oscuro */
+    margin-top: 50px;
+}
+
+.contact-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #030d4f; /* Azul oscuro */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.custom-btn {
+    background-color: #fb0c06; /* Rojo intenso */
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    background-color: #ffc52c; /* Amarillo brillante */
+}
