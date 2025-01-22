@@ -1,0 +1,29 @@
+/* Estilos para la página del perfil del usuario */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7edea; /* Gris muy claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #030d4f; /* Azul oscuro */
+    margin-top: 50px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container p {
+    font-size: 1.2rem;
+    color: #030d4f; /* Azul oscuro */
+    margin-bottom: 10px;
+}
