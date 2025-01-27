@@ -19,8 +19,18 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="/detalle-contactos/detalle-contactos.html">Ver Contactos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/login/login.html" onclick="logout()">Cerrar sesión</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="submenuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menú de Navegación
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="submenuDropdown">
+                            <li><a class="dropdown-item" href="/index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="/detalle-contactos/detalle-contactos.html">Detalle Contactos</a></li>
+                            <li><a class="dropdown-item" href="/favoritos/favoritos.html">Favoritos</a></li>
+                            <li><a class="dropdown-item" href="/lista-tareas/lista-tareas.html">To-Do List</a></li>
+                            <li><a class="dropdown-item" href="/perfil/perfil.html">To-Do List</a></li>
+                            <li><a class="dropdown-item" href="/login/login.html" onclick="logout()">Cerrar sesión</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>

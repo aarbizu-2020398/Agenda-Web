@@ -1,44 +1,44 @@
-/* Estilos generales para la página */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e7edea; /* Gris muy claro */
+    background-color: #e7edea; 
     color: #333;
     margin: 0;
     padding: 0;
 }
 
-/* Barra de navegación */
+
 .navbar {
-    background-color: #030d4f; /* Azul oscuro */
+    background-color: #030d4f; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffc52c; /* Amarillo brillante */
+    color: #ffc52c; 
 }
 .navbar-brand:hover {
-    color: #fb0c06; /* Rojo intenso */
+    color: #fb0c06; 
 }
 .nav-link {
     font-size: 1rem;
-    color: #ceecef; /* Azul claro */
+    color: #ceecef; 
     transition: color 0.3s;
 }
 .nav-link:hover {
-    color: #ffc52c; /* Amarillo brillante */
+    color: #ffc52c; 
 }
 
-/* Título de la página */
+
 h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Diseño de las tarjetas de los contactos */
+
 .card {
     border: none;
     border-radius: 10px;
@@ -65,7 +65,7 @@ h2 {
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
 }
 
 .card-text {
@@ -74,7 +74,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Espaciado entre las tarjetas */
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -85,12 +85,11 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* Estilo del enlace de navegación */
 .nav-link {
     font-size: 1rem;
     color: #fff !important;
 }
 
 .nav-link:hover {
-    color: #ffc52c !important; /* Amarillo brillante */
+    color: #ffc52c !important; 
 }
