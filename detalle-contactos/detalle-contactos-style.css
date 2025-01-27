@@ -1,0 +1,142 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7edea; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.navbar {
+    background-color: #030d4f; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc52c; 
+}
+.navbar-brand:hover {
+    color: #fb0c06; 
+}
+.nav-link {
+    font-size: 1rem;
+    color: #ceecef; 
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #ffc52c; 
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #030d4f; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.contact-list-container {
+    max-width: 1200px;
+    margin: 5% auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #030d4f; 
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ffc52c !important; 
+}
+
+
+.custom-btn {
+    background: linear-gradient(135deg, #ffc52c, #fb0c06); 
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #fb0c06, #ffc52c); 
+}
+
+
+.custom-btn-secondary {
+    background: #e7edea; 
+    border: 2px solid #ceecef; 
+    color: #030d4f; 
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-secondary:hover {
+    background: #ffffff; 
+    border-color: #ffc52c; 
+    color: #ffc52c; 
+}
