@@ -1,14 +1,14 @@
-/* Estilos para la página de favoritos */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e7edea; /* Gris claro */
+    background-color: #e7edea; 
     margin: 0;
     padding: 0;
 }
 
 h2 {
     text-align: center;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
     margin-top: 50px;
 }
 
@@ -36,7 +36,7 @@ h2 {
 
 .card-title {
     font-size: 1.5rem;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
 }
 
 .card-text {
@@ -45,7 +45,7 @@ h2 {
 }
 
 .custom-btn {
-    background-color: #fb0c06; /* Rojo intenso */
+    background-color: #fb0c06; 
     color: white;
     padding: 10px 15px;
     font-size: 1rem;
@@ -54,5 +54,5 @@ h2 {
 }
 
 .custom-btn:hover {
-    background-color: #ffc52c; /* Amarillo brillante */
+    background-color: #ffc52c; 
 }
