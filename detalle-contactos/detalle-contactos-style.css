@@ -1,44 +1,44 @@
-/* Estilos generales para la página */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e7edea; /* Gris muy claro */
+    background-color: #e7edea; 
     margin: 0;
     padding: 0;
     color: #333;
 }
 
-/* Barra de navegación */
+
 .navbar {
-    background-color: #030d4f; /* Azul oscuro */
+    background-color: #030d4f; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffc52c; /* Amarillo brillante */
+    color: #ffc52c; 
 }
 .navbar-brand:hover {
-    color: #fb0c06; /* Rojo intenso */
+    color: #fb0c06; 
 }
 .nav-link {
     font-size: 1rem;
-    color: #ceecef; /* Azul claro */
+    color: #ceecef; 
     transition: color 0.3s;
 }
 .nav-link:hover {
-    color: #ffc52c; /* Amarillo brillante */
+    color: #ffc52c; 
 }
 
-/* Título de la página */
+
 h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Contenedor de la lista de contactos */
+
 .contact-list-container {
     max-width: 1200px;
     margin: 5% auto;
@@ -48,7 +48,7 @@ h2 {
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo de las tarjetas de los contactos */
+
 .card {
     border: none;
     border-radius: 15px;
@@ -76,7 +76,7 @@ h2 {
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
 }
 
 .card-text {
@@ -85,7 +85,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Espaciado entre las tarjetas */
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -97,19 +97,18 @@ h2 {
     max-width: 300px;
 }
 
-/* Estilo del enlace de navegación */
 .nav-link {
     font-size: 1rem;
     color: #fff !important;
 }
 
 .nav-link:hover {
-    color: #ffc52c !important; /* Amarillo brillante */
+    color: #ffc52c !important; 
 }
 
-/* Botón para agregar contacto */
+
 .custom-btn {
-    background: linear-gradient(135deg, #ffc52c, #fb0c06); /* Amarillo brillante a rojo intenso */
+    background: linear-gradient(135deg, #ffc52c, #fb0c06); 
     border: none;
     color: #fff;
     padding: 10px 15px;
@@ -121,14 +120,14 @@ h2 {
 }
 
 .custom-btn:hover {
-    background: linear-gradient(135deg, #fb0c06, #ffc52c); /* Rojo intenso a amarillo brillante */
+    background: linear-gradient(135deg, #fb0c06, #ffc52c); 
 }
 
-/* Botón secundario (registro) */
+
 .custom-btn-secondary {
-    background: #e7edea; /* Gris suave */
-    border: 2px solid #ceecef; /* Azul claro */
-    color: #030d4f; /* Azul oscuro */
+    background: #e7edea; 
+    border: 2px solid #ceecef; 
+    color: #030d4f; 
     padding: 10px 15px;
     font-size: 1rem;
     border-radius: 8px;
@@ -137,7 +136,7 @@ h2 {
 }
 
 .custom-btn-secondary:hover {
-    background: #ffffff; /* Blanco */
-    border-color: #ffc52c; /* Amarillo brillante */
-    color: #ffc52c; /* Amarillo brillante */
+    background: #ffffff; 
+    border-color: #ffc52c; 
+    color: #ffc52c; 
 }
