@@ -1,7 +1,7 @@
-/* Estilos para la página del perfil del usuario */
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e7edea; /* Gris muy claro */
+    background-color: #e7edea; 
     margin: 0;
     padding: 0;
     color: #333;
@@ -9,7 +9,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
     margin-top: 50px;
 }
 
@@ -24,6 +24,6 @@ h2 {
 
 .profile-container p {
     font-size: 1.2rem;
-    color: #030d4f; /* Azul oscuro */
+    color: #030d4f; 
     margin-bottom: 10px;
 }
